@@ -1,83 +1,218 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
+    <title>Sravanthi Terissa Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<title>My Portfolio</title>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
 
-<meta name="viewport" content="width=device-
+        .main {
+            padding: 20px;
+            text-align: center;
+        }
 
-width, initial-scale=1">
+        .navbar {
+            background-color: #333;
+            padding: 15px;
+        }
 
-<link rel="stylesheet" href="style.css">
+        .bar {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
 
+        .bar li {
+            margin: 0 15px;
+        }
+
+        .bar li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        .bar li a:hover {
+            color: #ff4081;
+        }
+
+        .info {
+            margin: 40px 0;
+        }
+
+        .info h1 {
+            font-size: 40px;
+            color: #ff4081;
+        }
+
+        .info h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .info a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #ff4081;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .info a:hover {
+            background-color: #e91e63;
+        }
+
+        .image img {
+            width: 250px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        .section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .section ul {
+            padding-left: 20px;
+        }
+
+        .section ul li {
+            margin-bottom: 8px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .icons {
+            margin-top: 20px;
+        }
+
+        .icons a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .icons a:hover {
+            color: #ff4081;
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="main">
+    <div class="main">
+        <div class="navbar">
+            <ul class="bar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
 
-<div class="navbar">
-<ul class="bar" >
+        <div class="info">
+            <h1>Sravanthi Terissa</h1>
+            <h3>B.Tech in Electronics and Communication Engineering</h3>
+            <a href="#">Hire Me</a>
+        </div>
 
-<li><a href="#">HOME</a></li>
+        <div class="image">
+            <img src="pic/pic3.jpg" alt="Sravanthi Terissa">
+        </div>
 
-<li><a href="#">ABOUT</a></li>
+        <div class="section">
+            <h2>Contact</h2>
+            <ul>
+                <li><strong>Phone:</strong> +91-8106527723</li>
+                <li><strong>Email:</strong> sravanthithapita123@gmail.com</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sravanthi-terissa-thapita-336691268/">Sravanthi Terissa Thapita</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/sravanthiterissa">sravanthi terissa</a></li>
+            </ul>
+        </div>
 
-<li><a href="#">SKILLS</a></li>
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>B.Tech in ECE (2022-2025):</strong> Pragati Engineering College, Surampalem</li>
+                <li><strong>Diploma in ECE (2019-2022):</strong> Government Polytechnic for Women, Kakinada - 93%</li>
+                <li><strong>SSC (2018-2019):</strong> Ravindra Bharati School, Kakinada - 9.8 CGPA</li>
+            </ul>
+        </div>
 
-<li><a href="#">MY WORKS</a></li>
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>AWS Cloud (Certified Practitioner)</li>
+                <li>Communication Skills</li>
+                <li>Lightning Web Components (Basics)</li>
+                <li>Power BI (Basics)</li>
+                <li>MS Office</li>
+            </ul>
+        </div>
 
-<li><a href="#">CONTACT</a></li>
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>Radar Detector</li>
+                <li>Portfolio Website using HTML and CSS</li>
+            </ul>
+        </div>
 
-</ul>
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>AWS Cloud Practitioner</li>
+                <li>NPTEL: Introduction to IoT</li>
+                <li>Cisco Certification - Cybersecurity</li>
+            </ul>
+        </div>
 
-</div>
+        <div class="section">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Learning new courses to improve skills</li>
+                <li>Singing</li>
+            </ul>
+        </div>
 
-<div class="info">
+        <div class="icons">
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
 
-<h3>Hi, I'm <span>Sravanthi</span>.</h3>
+    </div>
 
-<h1><span>F</span>RESHER<span>G</
-
-span>RADUATE</h1>
-
-<h3>Student persuing B.Tech in Electronics and Communication and Engineering.
-
-I create <br> websites to enhance my skill.<br>Now I'm happy to say that I'm a certified AWS cloud practitioner and looking forward to <br> delve myself in cloud tools </h3>
-
-<a href="#">Hire Me</a>
-
-</div>
-
-<div class="image">
-
-<img src="pic/pic3.jpg" class="girl">
-
-</div>
-<div class="icons">
-
-<a href="#"><ion-icon name="logo-linkedin"></ion-
-
-icon></a>
-
-<a href="#"><ion-icon name="logo-whatsapp"></ion-
-
-icon></a>
-
-<a href="#"><ion-icon name="logo-github"></ion-
-
-icon></a>
-
-</div>
-
-</div>
-
-<script src="https://unpkg.com/ionicons@5.4.0/dist/
-
-ionicons.js"></script>
-
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 
 </html>
